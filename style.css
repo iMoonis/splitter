@@ -28,7 +28,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
     width: 750px;
     padding: 15px;
     border-radius: 10px;
@@ -86,8 +86,11 @@ input::placeholder {
     flex-basis: 50%;
     padding: 20px;
     background-color: hsl(183, 100%, 15%);
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
 }
+
 .tip-result {
     display: flex;
     align-items: center;
@@ -101,6 +104,23 @@ small {
 
 .extra-small {
     opacity: 0.5;
+}
+
+.btn {
+    width: 89%;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    background-color: hsl(185, 41%, 84%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: hsl(172, 67%, 45%);
 }
 
 @media only screen and (max-width: 745px) {
